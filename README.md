@@ -13,24 +13,24 @@ cd Docker-highlighter
 docker-compose up --build
 ```
 
-#3. Access the Application
+# 3. Access the Application
 Open a browser and visit:
 ```arduino
 http://localhost:8888
 ```
 
-##Troubleshooting
-#Check Docker Logs
+## Troubleshooting
+# Check Docker Logs
 ```bash
 docker-compose logs
 ```
 
-#Restart a Specific Service
+# Restart a Specific Service
 ```bash
 docker-compose restart uploader
 ```
 
-#Database Issues
+# Database Issues
 If filedb.db is missing, recreate it:
 ```bash
 docker-compose down
