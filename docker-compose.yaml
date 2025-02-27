@@ -1,0 +1,20 @@
+version: "1"
+services:
+    uploader:
+        build:
+            context: .
+            dockerfile: uploader.dockerfile
+        volumes:
+            - filevol:/usr/src/myapp/source
+            - filevol:/usr/src/myapp/target
+        ports:
+            - "8888:8888"
+    generator:
+        build:
+            context: .
+            dockerfile: generator.dockerfile
+        volumes:
+            - filevol:/usr/src/myapp/source
+            - filevol:/usr/src/myapp/target
+volumes:
+    filevol:
