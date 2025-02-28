@@ -4,7 +4,7 @@ A simple Docker-based application for uploading and processing text files.
 ## Installation & Setup
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/Docker-highlighter.git
+git clone https://github.com/Bamkrittaya/Docker-highlighter.git
 cd Docker-highlighter
 ``` 
 
